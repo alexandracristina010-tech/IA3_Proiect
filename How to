@@ -1,0 +1,20 @@
+How to Reproduce
+
+Train the baseline classifier
+Run TextFooler and HotFlip attacks
+Evaluate performance
+Generate adversarial examples for training
+Retrain the model using combined clean + adversarial data
+Re-evaluate using both attacks
+Apply Feature Squeezing alone or combined with adversarial training
+
+Each step is included in the project notebooks.
+
+ Requirements
+
+Python 3.9+
+TensorFlow 2.x
+NumPy
+NLTK
+scikit-learn
+tqdm
